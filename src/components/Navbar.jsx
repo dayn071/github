@@ -89,15 +89,15 @@ const Navbar = () => {
           <ul className="mx-3  mt-2 flex-1 overflow-y-auto min-h-0">
             <li className="h-18 px-2 mt-2 border-b border-[#d1d9e0]">
               <h5 className="text-[12px] text-[#59636e] h-9 font-medium">
-                Repositories
+                Owners
               </h5>
 
               {/* Parent span with flex and justify-between */}
               <span className="cursor-pointer hover:bg-[#c8d1da66] h-8 rounded-[8px] text-[14px] text-[#59636e] mb-2  flex items-center justify-between w-full">
                 {/* Left side - Icon and repo id */}
-                <span className="flex items-center gap-1">
-                  <AssistantIcon sx={{ fontSize: 16 }} />
-                  <span>Chat with copilot</span>
+                <span className="flex items-center gap-1 ">
+                  <FolderIcon sx={{ fontSize: 16 }} />
+                  <span className="text-[#1f2823] ms-1">dayn071</span>
                 </span>
 
                 {/* Right side*/}
@@ -115,13 +115,13 @@ const Navbar = () => {
               <span className="px-2 cursor-pointer hover:bg-[#c8d1da66] h-8 rounded-[8px] text-[14px] text-[#59636e] mb-2 flex items-center justify-between w-full">
                 {/* Left side - Icon and repo id */}
                 <span className="flex items-center gap-1">
-                  <AssistantIcon sx={{ fontSize: 16 }} />
-                  <span>Chat with copilot</span>
+                  <FolderIcon sx={{ fontSize: 16 }} />
+                  <span className="text-[#1f2823] ms-1">dayn071/weather</span>
                 </span>
 
                 {/* Right side*/}
                 <span className="text-[#59636e] hover:text-blue-600 cursor-pointer">
-                  Start a thread with copilot
+                  Jump to
                 </span>
               </span>
             </li>
@@ -133,9 +133,9 @@ const Navbar = () => {
               {/* Parent span with flex and justify-between */}
               <span className="px-2 cursor-pointer hover:bg-[#c8d1da66] h-8 rounded-[8px] text-[14px] text-[#59636e] mb-2 flex items-center justify-between w-full">
                 {/* Left side - Icon and repo id */}
-                <span className="flex items-center gap-1">
+                <span className="flex items-center gap-1 ">
                   <AssistantIcon sx={{ fontSize: 16 }} />
-                  <span>Chat with copilot</span>
+                  <span className="text-[#1f2823] ms-1">Chat with copilot</span>
                 </span>
 
                 {/* Right side*/}
@@ -147,11 +147,11 @@ const Navbar = () => {
             {/* Event checkboxes */}
           </ul>
           <div className="flex justify-between border-t border-[#d1d9e0] p-2 flex-shrink-0">
-            <a className="text-[#0969da] h-8 py-2 px-4 cursor-pointer text-[12px] flex items-center">
-              <span>Reset to default</span>
+            <a className="text-[#0969da] h-8  px-4 cursor-pointer text-[12px] flex items-center">
+              <span>Search syntax tips</span>
             </a>
-            <a className=" py-2 px-4 h-8 cursor-pointer text-[#0969da] text-[12px] rounded-[8px] flex items-center">
-              <span>Save</span>
+            <a className="  px-4 h-8 cursor-pointer text-[#0969da] text-[12px] rounded-[8px] flex items-center">
+              <span>Give feedback</span>
             </a>
           </div>
         </div>
