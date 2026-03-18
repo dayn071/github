@@ -82,7 +82,7 @@ const Navbar = () => {
               <SearchIcon />
             </span>
             <input
-              className="w-full  h-[32px] ps-1 text-[14px] placeholder:text-[14px] focus:outline-none "
+              className="w-full  h-[32px] ps-1 text-[14px]  placeholder:text-[14px] focus:outline-none "
               type="text"
             />
           </div>
@@ -106,7 +106,7 @@ const Navbar = () => {
                 </span>
               </span>
             </li>{" "}
-            <li className="h-18  border-b border-[#d1d9e0]">
+            <li className="h-18  border-b  border-[#d1d9e0]">
               <h5 className="text-[12px] px-2 mt-2 text-[#59636e] h-9 font-medium">
                 Repositories
               </h5>
