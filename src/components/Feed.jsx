@@ -30,6 +30,7 @@ const Feed = () => {
             </span>
             <span className="ms-1 text-[12px] ">Filter</span>
           </button>
+          {/* dropdown  */}
           {isFilterOpen && (
             <div className="container flex flex-col h-[420px] overflow-y-auto m-[8px_0px_16px] bg-[#ffffff] w-[310px] border rounded-t-[6px] border-[#d1d9e0] absolute right-0 top-full  z-50">
               <div className="flex flex-shrink-0 mt-1 text-[13px] items-center justify-between h-5 p-[7px_7px_7px_16px]">

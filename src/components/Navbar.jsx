@@ -74,7 +74,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-
+{/* dropdown */}
       {isSearchBarOpen && (
         <div className="container flex flex-col  bg-[#ffffff] w-full lg:w-[920px] absolute right-0 top-[2px]  z-50 xl:right-auto xl:left-[90px] rounded-[8px]">
           <div className="flex flex-shrink-0 text-[13px] items-center justify-between h-[32px] my-2 mx-3  border  rounded-[8px] border-[#0969da] ring-1 ring-[#0969da] transition-colors">
